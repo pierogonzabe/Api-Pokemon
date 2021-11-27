@@ -1,4 +1,20 @@
-<h1>Bienvenido a mi Lista de Pokemons</h1>
-<button class="btn btn-danger">
-  Mostrar Lista
-</button>
+<h1 style="text-align:center">Lista de Pokemons</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+      <th scope="col">
+        Habilidades
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let pokemon of pokemons"></tr>
+      
+    
+  </tbody>
+</table>
